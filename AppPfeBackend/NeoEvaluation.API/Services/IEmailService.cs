@@ -1,0 +1,8 @@
+// Services/IEmailService.cs
+namespace NeoEvaluation.API.Services
+{
+    public interface IEmailService
+    {
+        Task SendEmailAsync(string to, string subject, string body);
+    }
+}
